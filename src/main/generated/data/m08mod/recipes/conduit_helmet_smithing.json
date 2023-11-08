@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:conduit"
+  },
+  "base": {
+    "item": "minecraft:turtle_helmet"
+  },
+  "result": {
+    "item": "minecraft:iron_helmet"
+  },
+  "template": {
+    "item": "m08mod:conduit_upgrade_smithing_template"
+  }
+}

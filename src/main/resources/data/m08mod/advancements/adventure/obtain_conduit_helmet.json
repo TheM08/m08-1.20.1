@@ -1,0 +1,38 @@
+{
+  "parent": "m08mod:adventure/obtain_conduit_upgrade_smithing_template",
+  "criteria": {
+    "barrier": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.obtain_conduit_helmet.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.obtain_conduit_helmet.title"
+    }
+  },
+  "requirements": [
+    [
+      "barrier"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

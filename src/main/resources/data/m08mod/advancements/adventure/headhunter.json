@@ -1,0 +1,116 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "wither_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_skeleton_skull"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "zombie_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zombie_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "creeper_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "dragon_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dragon_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "piglin_head": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:piglin_head"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.headhunter.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.headhunter.title"
+    }
+  },
+  "requirements": [
+    [
+      "skeleton_skull"
+    ],
+    [
+      "wither_skeleton_skull"
+    ],
+    [
+      "zombie_head"
+    ],
+    [
+      "creeper_head"
+    ],
+    [
+      "dragon_head"
+    ],
+    [
+      "piglin_head"
+    ]
+  ],
+  "rewards": {
+    "experience": 250
+  },
+  "sends_telemetry_event": true
+}

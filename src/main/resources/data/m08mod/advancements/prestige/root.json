@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "netherite_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/crying_obsidian.png",
+    "description": {
+      "translate": "advancements.prestige.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.prestige.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_upgrade_smithing_template"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

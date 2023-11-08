@@ -1,0 +1,38 @@
+{
+  "parent": "m08mod:prestige/root",
+  "criteria": {
+    "prestige_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "m08mod:prestige_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.prestige.obtain_prestige_upgrade_smithing_template.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "m08mod:prestige_upgrade_smithing_template"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.prestige.obtain_prestige_upgrade_smithing_template.title"
+    }
+  },
+  "requirements": [
+    [
+      "prestige_upgrade_smithing_template"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

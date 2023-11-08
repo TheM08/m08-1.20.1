@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "m08mod",
+	"version": "${version}",
+	"name": "M08 Mod",
+	"description": "This is the M08 Mod",
+	"authors": [
+		"Ellis"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/m08mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.m08.m08mod.M08Mod"
+		],
+		"client": [
+			"net.m08.m08mod.M08ModClient"
+		],
+		"fabric-datagen": [
+			"net.m08.m08mod.M08ModDataGenerator"
+		]
+	},
+	"mixins": [
+		"m08mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

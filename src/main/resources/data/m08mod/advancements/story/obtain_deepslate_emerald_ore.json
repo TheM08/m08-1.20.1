@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "deepslate_emerald_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_emerald_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.obtain_deepslate_emerald_ore.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:deepslate_emerald_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.obtain_deepslate_emerald_ore.title"
+    }
+  },
+  "requirements": [
+    [
+      "deepslate_emerald_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

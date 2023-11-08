@@ -1,0 +1,38 @@
+{
+  "parent": "m08mod:adventure/obtain_turtle_shell",
+  "criteria": {
+    "conduit_upgrade_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "m08mod:conduit_upgrade_smithing_template"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.adventure.obtain_conduit_upgrade_smithing_template.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "m08mod:conduit_upgrade_smithing_template"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.adventure.obtain_conduit_upgrade_smithing_template.title"
+    }
+  },
+  "requirements": [
+    [
+      "conduit_upgrade_smithing_template"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

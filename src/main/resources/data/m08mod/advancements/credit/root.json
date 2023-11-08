@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/gold_block.png",
+    "description": {
+      "translate": "advancements.credit.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:gold_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.credit.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "gold_ingot"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

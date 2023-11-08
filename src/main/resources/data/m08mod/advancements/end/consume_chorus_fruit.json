@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:end/enter_end_gateway",
+  "criteria": {
+    "chorus_fruit": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:chorus_fruit"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.end.consume_chorus_fruit.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.end.consume_chorus_fruit.title"
+    }
+  },
+  "requirements": [
+    [
+      "chorus_fruit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

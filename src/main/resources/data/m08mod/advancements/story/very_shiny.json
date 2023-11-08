@@ -1,0 +1,176 @@
+{
+  "parent": "m08mod:story/so_shiny",
+  "criteria": {
+    "iron_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "copper_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "emerald_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gold_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "lapis_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lapis_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "redstone_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:redstone_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "diamond_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "quartz_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:quartz_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "coal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "netherite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.very_shiny.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.very_shiny.title"
+    }
+  },
+  "requirements": [
+    [
+      "iron_block"
+    ],
+    [
+      "copper_block"
+    ],
+    [
+      "emerald_block"
+    ],
+    [
+      "gold_block"
+    ],
+    [
+      "lapis_block"
+    ],
+    [
+      "redstone_block"
+    ],
+    [
+      "diamond_block"
+    ],
+    [
+      "quartz_block"
+    ],
+    [
+      "coal_block"
+    ],
+    [
+      "netherite_block"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

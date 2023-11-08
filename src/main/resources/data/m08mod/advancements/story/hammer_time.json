@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "hammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "m08mod:hammer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.hammer_time.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "m08mod:hammer"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.hammer_time.title"
+    }
+  },
+  "requirements": [
+    [
+      "hammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

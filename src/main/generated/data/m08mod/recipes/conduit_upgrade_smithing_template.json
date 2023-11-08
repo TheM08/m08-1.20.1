@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "S": {
+      "item": "minecraft:scute"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "SNS",
+    "SSS"
+  ],
+  "result": {
+    "item": "m08mod:conduit_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:story/iron_tools",
+  "criteria": {
+    "deepslate_coal_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:deepslate_coal_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.story.obtain_deepslate_coal_ore.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:deepslate_coal_ore"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.story.obtain_deepslate_coal_ore.title"
+    }
+  },
+  "requirements": [
+    [
+      "deepslate_coal_ore"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

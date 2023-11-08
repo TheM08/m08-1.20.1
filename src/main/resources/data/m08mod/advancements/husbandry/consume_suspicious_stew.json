@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "suspicious_stew": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.consume_suspicious_stew.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.consume_suspicious_stew.title"
+    }
+  },
+  "requirements": [
+    [
+      "suspicious_stew"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

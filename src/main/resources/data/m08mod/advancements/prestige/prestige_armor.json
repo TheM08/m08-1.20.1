@@ -1,0 +1,57 @@
+{
+  "parent": "m08mod:prestige/obtain_prestige_upgrade_smithing_template",
+  "criteria": {
+    "barrier": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:barrier"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.prestige.prestige_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:barrier",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.prestige.prestige_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "barrier"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

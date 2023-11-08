@@ -1,0 +1,38 @@
+{
+  "parent": "m08mod:credit/root",
+  "criteria": {
+    "credit": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "m08mod:credit"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.credit.obtain_credit.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "m08mod:credit"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.credit.obtain_credit.title"
+    }
+  },
+  "requirements": [
+    [
+      "credit"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

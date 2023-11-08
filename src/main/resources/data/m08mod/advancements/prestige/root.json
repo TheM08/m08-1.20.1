@@ -15,7 +15,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/smooth_quartz.png",
+    "background": "minecraft:textures/block/quartz_block_side.png",
     "description": {
       "translate": "advancements.prestige.root.description"
     },

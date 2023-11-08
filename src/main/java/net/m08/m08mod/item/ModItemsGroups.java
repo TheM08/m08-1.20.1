@@ -19,6 +19,8 @@ public class ModItemsGroups {
                         entries.add(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(ModItems.HAMMER);
 
+                        entries.add(Items.TURTLE_HELMET);
+
                     }).build());
     public static final ItemGroup ECLIPSE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(M08Mod.MOD_ID, "bright_shard"),

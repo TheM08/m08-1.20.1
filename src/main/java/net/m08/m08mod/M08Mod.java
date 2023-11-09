@@ -15,8 +15,9 @@ public class M08Mod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		ModItemsGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModItemsGroups.registerItemGroups();
+
 
 		ModCustomTrades.registerCustomTrades();
 	}

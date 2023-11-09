@@ -22,6 +22,7 @@ public class ModItemsGroups {
                         entries.add(Items.TURTLE_HELMET);
 
                     }).build());
+
     public static final ItemGroup ECLIPSE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(M08Mod.MOD_ID, "bright_shard"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bright_shard"))
@@ -30,6 +31,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.BRIGHT_SHARD);
 
                     }).build());
+
     public static final ItemGroup CREDIT_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(M08Mod.MOD_ID, "credit"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.credit"))
@@ -37,6 +39,7 @@ public class ModItemsGroups {
                         entries.add(ModItems.CREDIT);
 
                     }).build());
+
     public static final ItemGroup MINECRAFT_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(M08Mod.MOD_ID, "grass_block"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.grass_block"))

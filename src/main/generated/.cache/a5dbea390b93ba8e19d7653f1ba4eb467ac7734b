@@ -1,7 +1,7 @@
-// 1.20.1	2023-11-03T12:50:21.1123084	M08 Mod/Model Definitions
+// 1.20.1	2023-11-11T18:24:39.2586616	M08 Mod/Model Definitions
 ff96e53458ea8ccce77b4bdc4d842dbb2970b963 assets\m08mod\models\item\bright_shard.json
-033f57804edfe2888b7c9ac7ceb37d43d07f870d assets\m08mod\models\item\shadow_shard.json
 f5439654db960f7bd00b4647dc2b410f583ce049 assets\m08mod\models\item\conduit_upgrade_smithing_template.json
+033f57804edfe2888b7c9ac7ceb37d43d07f870d assets\m08mod\models\item\shadow_shard.json
 cc1606c164bba27c64653242d646ae8f031981cf assets\m08mod\models\item\hammer.json
 6af8d933140d2e0d21736288dbb6844e74711378 assets\m08mod\models\item\credit.json
 76c53f2e8037519623b5487e7e4ed01ff96e4f21 assets\m08mod\models\item\prestige_upgrade_smithing_template.json

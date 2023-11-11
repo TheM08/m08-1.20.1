@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "conduit",
   "key": {
     "C": {
       "item": "m08mod:conduit_upgrade_smithing_template"

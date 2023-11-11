@@ -28,6 +28,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerBlasting(exporter, CREDIT_SMELTABLES, RecipeCategory.MISC, ModItems.CREDIT, 1.0f, 100, "credit");
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, 1)
+                .group("prestige")
                 .pattern("QQQ")
                 .pattern("GNG")
                 .pattern("QQQ")
@@ -38,6 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, 2)
+                .group("prestige")
                 .pattern("GPG")
                 .pattern("GQG")
                 .pattern("GGG")
@@ -46,6 +48,27 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE) + "_2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE, 1)
+                .group("conduit")
+                .pattern("SSS")
+                .pattern("SNS")
+                .pattern("SSS")
+                .input('S', Items.SCUTE)
+                .input('N', Items.NAUTILUS_SHELL)
+                .criterion(hasItem(Items.SCUTE), conditionsFromItem(Items.SCUTE))
+                .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE, 2)
+                .group("conduit")
+                .pattern("SCS")
+                .pattern("SNS")
+                .pattern("SSS")
+                .input('S', Items.SCUTE)
+                .input('N', Items.NAUTILUS_SHELL)
+                .input('C', ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE)
+                .criterion(hasItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE) + "_2"));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET, 1)
                 .pattern("CCC")
@@ -96,25 +119,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', Items.IRON_INGOT)
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
                 .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.HAMMER)));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE, 1)
-                .pattern("SSS")
-                .pattern("SNS")
-                .pattern("SSS")
-                .input('S', Items.SCUTE)
-                .input('N', Items.NAUTILUS_SHELL)
-                .criterion(hasItem(Items.SCUTE), conditionsFromItem(Items.SCUTE))
-                .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE)));
-
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE, 2)
-                .pattern("SCS")
-                .pattern("SNS")
-                .pattern("SSS")
-                .input('S', Items.SCUTE)
-                .input('N', Items.NAUTILUS_SHELL)
-                .input('C', ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE)
-                .criterion(hasItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE))
-                .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE) + "_2"));
 
         offerSmithingTrimRecipe(exporter, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, new Identifier(M08Mod.MOD_ID, "prestige_upgrade_smithing"));
 

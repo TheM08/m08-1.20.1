@@ -29,5 +29,12 @@ public class ModCustomTrades {
                             new ItemStack(Items.IRON_CHESTPLATE, 1),
                             1, 12, 0.075f));
                 });
+        TradeOfferHelper.registerWanderingTraderOffers(2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.CREDIT, 3),
+                            new ItemStack(Items.IRON_HELMET, 1),
+                            1, 12, 0.075f));
+                });
     }
 }

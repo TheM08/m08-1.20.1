@@ -15,11 +15,37 @@ public class ModCustomTrades {
         TradeOfferHelper.registerVillagerOffers(ModVillagers.CREDIT_TRADER, 1,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(ModItems.CREDIT, 32),
-                            new ItemStack(Blocks.CHEST, 2),
-                            new ItemStack(ModBlocks.CREDIT_CHEST, 1),
-                            1, 12, 0.05f));
+                            new ItemStack(ModItems.CREDIT, 5),
+                            new ItemStack(Items.GILDED_BLACKSTONE, 1),
+                            5, 3, 0.075f));
                 });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.CREDIT_TRADER, 1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.CREDIT, 3),
+                            new ItemStack(Items.BOOKSHELF, 1),
+                            new ItemStack(Items.CHISELED_BOOKSHELF, 1),
+                            10, 3, 0.075f));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.CREDIT_TRADER, 2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.CREDIT, 2),
+                            new ItemStack(Items.SHEARS, 1),
+                            5, 6, 0.075f));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.CREDIT_TRADER, 5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.CREDIT, 32),
+                            new ItemStack(Items.CHEST, 2),
+                            new ItemStack(ModBlocks.CREDIT_CHEST, 1),
+                            2, 6, 0.075f));
+                });
+
 
         TradeOfferHelper.registerWanderingTraderOffers(1,
                 factories -> {

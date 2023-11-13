@@ -44,6 +44,10 @@
   "advancements.story.very_shiny.description": "Obtain every Ore in there Block form",
   "advancements.story.very_shiny.title": "...Very Shiny",
 
+  "block.m08mod.credit_chest": "Credit Chest",
+
+  "entity.minecraft.villager.credit_trader": "Credit Trader",
+
   "item.m08mod.bright_shard": "Bright Shard",
   "item.m08mod.conduit_upgrade_smithing_template": "Smithing Template",
   "item.m08mod.credit": "Credit",

@@ -1,5 +1,6 @@
 package net.m08.m08mod;
 
+import net.m08.m08mod.block.ModBlocks;
 import net.m08.m08mod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,7 @@ public class M08Mod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerBlockS();
 		ModItems.registerModItems();
 		ModItemsGroups.registerItemGroups();
 

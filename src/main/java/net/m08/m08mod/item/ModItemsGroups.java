@@ -2,6 +2,7 @@ package net.m08.m08mod.item;
 
 import net.m08.m08mod.M08Mod;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.m08.m08mod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -37,6 +38,7 @@ public class ModItemsGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.credit"))
                     .icon(() -> new ItemStack(ModItems.CREDIT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CREDIT);
+                        entries.add(ModBlocks.CREDIT_CHEST);
 
                     }).build());
 
@@ -92,7 +94,6 @@ public class ModItemsGroups {
                         entries.add(Items.IRON_CHESTPLATE);
                         entries.add(Items.IRON_LEGGINGS);
                         entries.add(Items.IRON_BOOTS);
-
                         entries.add(ModItems.HAMMER);
 
                     }).build());

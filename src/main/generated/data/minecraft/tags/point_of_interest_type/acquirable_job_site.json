@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "m08mod:creditpoi",
+      "required": false
+    }
+  ]
+}

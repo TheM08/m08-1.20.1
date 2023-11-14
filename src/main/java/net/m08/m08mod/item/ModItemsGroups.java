@@ -54,6 +54,8 @@ public class ModItemsGroups {
                         entries.add(Items.CRAFTING_TABLE);
                         entries.add(Items.CHEST);
                         entries.add(Items.STONE);
+                        entries.add(Items.COBBLESTONE);
+                        entries.add(Items.FURNACE);
                         entries.add(Items.GOLD_ORE);
                         entries.add(Items.GOLD_NUGGET);
                         entries.add(Items.GOLD_INGOT);

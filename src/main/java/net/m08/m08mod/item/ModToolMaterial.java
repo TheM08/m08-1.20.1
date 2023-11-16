@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    HAMMER(1, 350, 4.0f, 3.0f, 14, () -> Ingredient.ofItems(Items.IRON_INGOT));
+    HAMMER(1, 250, 4.0f, 3.0f, 14, () -> Ingredient.ofItems(Items.IRON_INGOT));
 
     private final int miningLevel;
     private final int itemDurability;

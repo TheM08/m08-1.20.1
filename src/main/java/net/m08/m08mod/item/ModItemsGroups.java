@@ -38,6 +38,7 @@ public class ModItemsGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.credit"))
                     .icon(() -> new ItemStack(ModItems.CREDIT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.CREDIT);
+                        entries.add(ModItems.CREDIT_KEY);
                         entries.add(ModBlocks.CREDIT_CHEST);
 
                     }).build());

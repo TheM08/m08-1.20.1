@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BRIGHT_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.SHADOW_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.CREDIT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CREDIT_KEY, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.HAMMER, Models.HANDHELD);
     }

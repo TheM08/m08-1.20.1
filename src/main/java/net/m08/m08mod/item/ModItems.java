@@ -18,6 +18,7 @@ public class ModItems {
     public static final Item SHADOW_SHARD = registerItem("shadow_shard", new Item(new FabricItemSettings()));
     public static final Item BRIGHT_SHARD = registerItem("bright_shard", new Item(new FabricItemSettings()));
     public static final Item CREDIT = registerItem("credit", new Item(new FabricItemSettings()));
+    public static final Item CREDIT_KEY = registerItem("credit_key", new Item(new FabricItemSettings()));
 
     public static final Item PRESTIGE_UPGRADE_SMITHING_TEMPLATE = registerItem("prestige_upgrade_smithing_template", new ModSmithingTemplateItem(
             PRESTIGE_UPGRADE_APPLIES_TO_TEXT, PRESTIGE_UPGRADE_INGREDIENTS_TEXT, PRESTIGE_UPGRADE_TEXT, PRESTIGE_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT, PRESTIGE_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT,

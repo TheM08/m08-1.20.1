@@ -11,7 +11,7 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    M08("m08", -1, new int[] {3, 6, 8, 3}, 0,
+    M08("m08", -1, new int[] {20, 0, 0, 0}, 0,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 100f, 1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT))
     ;
 

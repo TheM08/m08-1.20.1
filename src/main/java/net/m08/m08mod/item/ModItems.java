@@ -27,7 +27,7 @@ public class ModItems {
     public static final Item HAMMER = registerItem("hammer",
             new HammerItem(ModToolMaterial.HAMMER, 8, -3.5f, new FabricItemSettings()));
 
-    public static final Item M08_HELMET = registerItem("hammer",
+    public static final Item M08_HELMET = registerItem("m08_helmet",
             new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {

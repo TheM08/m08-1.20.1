@@ -4,10 +4,7 @@ import net.m08.m08mod.M08Mod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -27,7 +24,11 @@ public class ModItems {
             CONDUIT_UPGRADE_APPLIES_TO_TEXT, CONDUIT_UPGRADE_INGREDIENTS_TEXT, CONDUIT_UPGRADE_TEXT, CONDUIT_UPGRADE_BASE_SLOT_DESCRIPTION_TEXT, CONDUIT_UPGRADE_ADDITIONS_SLOT_DESCRIPTION_TEXT,
             ModSmithingTemplateItem.getConduitUpgradeEmptyBaseSlotTextures(), ModSmithingTemplateItem.getConduitUpgradeEmptyAdditionsSlotTextures()));
 
-    public static final Item HAMMER = registerItem("hammer", new HammerItem(ModToolMaterial.HAMMER, 8, -3.5f, new FabricItemSettings()));
+    public static final Item HAMMER = registerItem("hammer",
+            new HammerItem(ModToolMaterial.HAMMER, 8, -3.5f, new FabricItemSettings()));
+
+    public static final Item M08_HELMET = registerItem("hammer",
+            new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PRESTIGE_UPGRADE_SMITHING_TEMPLATE);

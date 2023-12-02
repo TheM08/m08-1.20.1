@@ -28,6 +28,7 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
     private static final Identifier EMPTY_SLOT_NETHER_STAR_TEXTURE;
     private static final Identifier EMPTY_SLOT_NETHERITE_HELMET_TEXTURE;
     private static final Identifier EMPTY_SLOT_NETHERITE_BOOTS_TEXTURE;
+    private static final Identifier EMPTY_SLOT_TURTLE_HELMET;
 
     public static final Text PRESTIGE_UPGRADE_TEXT = Text.translatable(Util.createTranslationKey("item", new Identifier("smithing_template.prestige_upgrade_smithing_template.title"))).formatted(TITLE_FORMATTING);
     public static final Text PRESTIGE_UPGRADE_APPLIES_TO_TEXT = Text.translatable(Util.createTranslationKey("item", new Identifier("smithing_template.prestige_upgrade_smithing_template.applies_to"))).formatted(DESCRIPTION_FORMATTING);
@@ -53,7 +54,7 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
     }
 
     public static List<Identifier> getConduitUpgradeEmptyBaseSlotTextures() {
-        return List.of(EMPTY_SLOT_HELMET_TEXTURE);
+        return List.of(EMPTY_SLOT_TURTLE_HELMET);
     }
 
     public static List<Identifier> getConduitUpgradeEmptyAdditionsSlotTextures() {
@@ -74,6 +75,7 @@ public class ModSmithingTemplateItem extends SmithingTemplateItem {
         EMPTY_SLOT_NETHER_STAR_TEXTURE = new Identifier(M08Mod.MOD_ID, "item/empty_slot_nether_star");
         EMPTY_SLOT_NETHERITE_HELMET_TEXTURE = new Identifier(M08Mod.MOD_ID, "item/empty_armor_slot_netherite_helmet");
         EMPTY_SLOT_NETHERITE_BOOTS_TEXTURE = new Identifier(M08Mod.MOD_ID, "item/empty_armor_slot_netherite_boots");
+        EMPTY_SLOT_TURTLE_HELMET = new Identifier(M08Mod.MOD_ID,"item/empty_armor_slot_turtle_helmet");
     }
 
     @Override

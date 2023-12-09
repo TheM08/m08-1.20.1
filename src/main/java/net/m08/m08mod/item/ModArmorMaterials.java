@@ -12,8 +12,9 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     M08("m08", -1, new int[] {20, 0, 0, 0}, 0,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 100f, 1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT))
-    ;
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 100f, 1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
+    PRESTIGE("prestige", 42, new int[] {5, 10, 8, 5}, 20,
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 0.2f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -24,7 +25,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = {11, 16, 15, 13};
+    private static final int[] BASE_DURABILITY = {13, 15, 16, 11};
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound,
                       float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {

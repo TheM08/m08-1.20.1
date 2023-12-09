@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 import static net.m08.m08mod.item.ModSmithingTemplateItem.*;
 
 public class ModItems {
-    public static final Item SHADOW_SHARD = registerItem("shadow_shard", new Item(new FabricItemSettings()));
-    public static final Item BRIGHT_SHARD = registerItem("bright_shard", new Item(new FabricItemSettings()));
+    public static final Item SHARD_OF_DARKNESS = registerItem("shard_of_darkness", new Item(new FabricItemSettings()));
+    public static final Item SHARD_OF_LIGHT = registerItem("shard_of_light", new Item(new FabricItemSettings()));
     public static final Item CREDIT = registerItem("credit", new Item(new FabricItemSettings()));
     public static final Item CREDIT_KEY = registerItem("credit_key", new Item(new FabricItemSettings()));
 
@@ -29,6 +29,16 @@ public class ModItems {
 
     public static final Item M08_HELMET = registerItem("m08_helmet",
             new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item PRESTIGE_HELMET = registerItem("prestige_helmet",
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item PRESTIGE_CHESTPLATE = registerItem("prestige_chestplate",
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item PRESTIGE_LEGGINGS = registerItem("prestige_legging",
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item PRESTIGE_BOOTS = registerItem("prestige_boots",
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PRESTIGE_UPGRADE_SMITHING_TEMPLATE);

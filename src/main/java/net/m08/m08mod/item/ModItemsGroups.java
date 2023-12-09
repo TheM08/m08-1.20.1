@@ -18,6 +18,10 @@ public class ModItemsGroups {
                     .icon(() -> new ItemStack(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE);
                         entries.add(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE);
+                        entries.add(ModItems.PRESTIGE_HELMET);
+                        entries.add(ModItems.PRESTIGE_CHESTPLATE);
+                        entries.add(ModItems.PRESTIGE_LEGGINGS);
+                        entries.add(ModItems.PRESTIGE_BOOTS);
                         entries.add(ModItems.HAMMER);
 
                         entries.add(Items.TURTLE_HELMET);
@@ -27,9 +31,9 @@ public class ModItemsGroups {
     public static final ItemGroup ECLIPSE_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(M08Mod.MOD_ID, "bright_shard"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bright_shard"))
-                    .icon(() -> new ItemStack(ModItems.BRIGHT_SHARD)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.SHADOW_SHARD);
-                        entries.add(ModItems.BRIGHT_SHARD);
+                    .icon(() -> new ItemStack(ModItems.SHARD_OF_LIGHT)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.SHARD_OF_DARKNESS);
+                        entries.add(ModItems.SHARD_OF_LIGHT);
 
                     }).build());
 

@@ -105,6 +105,14 @@ public class ModItemsGroups {
 
                     }).build());
 
+    public static final ItemGroup AGRICULTURE_GROUP = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(M08Mod.MOD_ID, "iron_hoe"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.iron_hoe"))
+                    .icon(() -> new ItemStack(Items.IRON_HOE)).entries((displayContext, entries) -> {
+                        entries.add(Items.PINK_PETALS);
+
+                    }).build());
+
     public static void registerItemGroups() {
         M08Mod.LOGGER.info("Registering Item Groups for " + M08Mod.MOD_ID);
     }

@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_helmet"
   },
   "result": {
-    "item": "minecraft:netherite_helmet"
+    "item": "m08mod:prestige_helmet"
   },
   "template": {
     "item": "m08mod:prestige_upgrade_smithing_template"

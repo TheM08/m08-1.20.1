@@ -122,13 +122,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         offerSmithingTrimRecipe(exporter, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, new Identifier(M08Mod.MOD_ID, "prestige_upgrade_smithing"));
 
-        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_HELMET), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_HELMET)
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_HELMET), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, ModItems.PRESTIGE_HELMET)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHER_STAR)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "prestige_helmet_smithing"));
-        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_CHESTPLATE), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_CHESTPLATE)
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_CHESTPLATE), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, ModItems.PRESTIGE_CHESTPLATE)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHER_STAR)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "prestige_chestplate_smithing"));
-        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_LEGGINGS), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_LEGGINGS)
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_LEGGINGS), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, ModItems.PRESTIGE_LEGGINGS)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHER_STAR)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "prestige_leggings_smithing"));
-        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_BOOTS), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_BOOTS)
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_BOOTS), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, ModItems.PRESTIGE_BOOTS)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHER_STAR)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "prestige_boots_smithing"));
 
         SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_SWORD), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_SWORD)

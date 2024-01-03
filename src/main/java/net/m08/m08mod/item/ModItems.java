@@ -28,16 +28,16 @@ public class ModItems {
             new HammerItem(ModToolMaterial.HAMMER, 8, -3.5f, new FabricItemSettings()));
 
     public static final Item M08_HELMET = registerItem("m08_helmet",
-            new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
 
     public static final Item PRESTIGE_HELMET = registerItem("prestige_helmet",
-            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item PRESTIGE_CHESTPLATE = registerItem("prestige_chestplate",
-            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item PRESTIGE_LEGGINGS = registerItem("prestige_leggings",
-            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item PRESTIGE_BOOTS = registerItem("prestige_boots",
-            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {

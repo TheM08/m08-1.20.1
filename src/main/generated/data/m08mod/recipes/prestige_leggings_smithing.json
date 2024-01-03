@@ -7,7 +7,7 @@
     "item": "minecraft:netherite_leggings"
   },
   "result": {
-    "item": "m08mod:prestige_legging"
+    "item": "m08mod:prestige_leggings"
   },
   "template": {
     "item": "m08mod:prestige_upgrade_smithing_template"

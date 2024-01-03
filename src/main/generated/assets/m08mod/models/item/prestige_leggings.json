@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "m08mod:item/prestige_legging"
+    "layer0": "m08mod:item/prestige_leggings"
   }
 }

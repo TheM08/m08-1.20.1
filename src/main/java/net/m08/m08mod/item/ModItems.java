@@ -34,7 +34,7 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings()));
     public static final Item PRESTIGE_CHESTPLATE = registerItem("prestige_chestplate",
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-    public static final Item PRESTIGE_LEGGINGS = registerItem("prestige_legging",
+    public static final Item PRESTIGE_LEGGINGS = registerItem("prestige_leggings",
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item PRESTIGE_BOOTS = registerItem("prestige_boots",
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings()));

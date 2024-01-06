@@ -47,6 +47,10 @@ public class ModItems {
 
     private static void addItemToCombatItemGroup(FabricItemGroupEntries entries) {
         entries.add(HAMMER);
+        entries.add(ModItems.PRESTIGE_HELMET);
+        entries.add(ModItems.PRESTIGE_CHESTPLATE);
+        entries.add(ModItems.PRESTIGE_LEGGINGS);
+        entries.add(ModItems.PRESTIGE_BOOTS);
     }
 
     private static Item registerItem(String name, Item item) {

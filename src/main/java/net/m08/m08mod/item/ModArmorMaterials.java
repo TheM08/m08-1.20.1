@@ -14,7 +14,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     M08("m08", -1, new int[] {20, 0, 0, 0}, 0,
             SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 100f, 1f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
     PRESTIGE("prestige", 42, new int[] {5, 10, 8, 5}, 20,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 0.2f, () -> Ingredient.ofItems(Items.NETHERITE_INGOT));
+            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4f, 0.2f, () -> Ingredient.ofItems(Items.NETHER_STAR));
 
     private final String name;
     private final int durabilityMultiplier;

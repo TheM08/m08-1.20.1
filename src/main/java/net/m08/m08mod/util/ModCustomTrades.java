@@ -62,7 +62,13 @@ public class ModCustomTrades {
                             2, 12, 0.5f));
                 });
 
-
+        TradeOfferHelper.registerWanderingTraderOffers(1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 3),
+                            new ItemStack(Items.GLISTERING_MELON_SLICE, 1),
+                            1, 12, 0.5f));
+                });
         TradeOfferHelper.registerWanderingTraderOffers(1,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
@@ -75,6 +81,13 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.CREDIT, 2),
                             new ItemStack(Items.WRITABLE_BOOK, 1),
+                            1, 12, 0.5f));
+                });
+        TradeOfferHelper.registerWanderingTraderOffers(2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 8),
+                            new ItemStack(Items.IRON_PICKAXE, 1),
                             1, 12, 0.5f));
                 });
         TradeOfferHelper.registerWanderingTraderOffers(2,

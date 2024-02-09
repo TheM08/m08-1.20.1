@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.m08.m08mod.M08Mod;
 import net.minecraft.block.Block;
 import net.minecraft.block.ChestBlock;
+import net.minecraft.block.EnderChestBlock;
 import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -14,7 +15,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block CREDIT_CHEST = registerBlock("credit_chest",
-            new ChestBlock(FabricBlockSettings.create(), () -> BlockEntityType.CHEST));
+            new EnderChestBlock(FabricBlockSettings.create()));
 
     public static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

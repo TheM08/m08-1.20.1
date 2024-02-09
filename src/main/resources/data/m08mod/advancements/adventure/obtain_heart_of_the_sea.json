@@ -1,12 +1,12 @@
 {
-  "parent": "m08mod:adventure/obtain_heart_of_the_sea",
+  "parent": "m08mod:adventure/obtain_turtle_shell",
   "criteria": {
-    "conduit": {
+    "heart_of_the_sea": {
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:conduit"
+              "minecraft:heart_of_the_sea"
             ]
           }
         ]
@@ -17,21 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "advancements.adventure.obtain_conduit.description"
+      "translate": "advancements.adventure.obtain_heart_of_the_sea.description"
     },
     "frame": "task",
     "hidden": false,
     "icon": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:heart_of_the_sea"
     },
     "show_toast": true,
     "title": {
-      "translate": "advancements.adventure.obtain_conduit.title"
+      "translate": "advancements.adventure.obtain_heart_of_the_sea.title"
     }
   },
   "requirements": [
     [
-      "conduit"
+      "heart_of_the_sea"
     ]
   ],
   "sends_telemetry_event": true

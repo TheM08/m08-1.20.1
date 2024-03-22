@@ -27,8 +27,8 @@ public class ModItems {
     public static final Item HAMMER = registerItem("hammer",
             new HammerItem(ModToolMaterial.HAMMER, 8, -3.5f, new FabricItemSettings()));
 
-    public static final Item M08_HELMET = registerItem("m08_helmet",
-            new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+    public static final Item CONDUIT_HELMET = registerItem("conduit_helmet",
+            new ArmorItem(ModArmorMaterials.CONDUIT, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item PRESTIGE_HELMET = registerItem("prestige_helmet",
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
@@ -39,6 +39,17 @@ public class ModItems {
     public static final Item PRESTIGE_BOOTS = registerItem("prestige_boots",
             new ArmorItem(ModArmorMaterials.PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
+    public static final Item TAINTED_PRESTIGE_HELMET = registerItem("tainted_prestige_helmet",
+            new ArmorItem(ModArmorMaterials.TAINTED_PRESTIGE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+    public static final Item TAINTED_PRESTIGE_CHESTPLATE = registerItem("tainted_prestige_chestplate",
+            new ArmorItem(ModArmorMaterials.TAINTED_PRESTIGE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+    public static final Item TAINTED_PRESTIGE_LEGGINGS = registerItem("tainted_prestige_leggings",
+            new ArmorItem(ModArmorMaterials.TAINTED_PRESTIGE, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+    public static final Item TAINTED_PRESTIGE_BOOTS = registerItem("tainted_prestige_boots",
+            new ArmorItem(ModArmorMaterials.TAINTED_PRESTIGE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+
+    public static final Item M08_HELMET = registerItem("m08_helmet",
+            new ArmorItem(ModArmorMaterials.M08, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
 
     private static void addItemToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(PRESTIGE_UPGRADE_SMITHING_TEMPLATE);
@@ -51,6 +62,11 @@ public class ModItems {
         entries.add(ModItems.PRESTIGE_CHESTPLATE);
         entries.add(ModItems.PRESTIGE_LEGGINGS);
         entries.add(ModItems.PRESTIGE_BOOTS);
+        entries.add(ModItems.TAINTED_PRESTIGE_HELMET);
+        entries.add(ModItems.TAINTED_PRESTIGE_CHESTPLATE);
+        entries.add(ModItems.TAINTED_PRESTIGE_LEGGINGS);
+        entries.add(ModItems.TAINTED_PRESTIGE_BOOTS);
+        entries.add(ModItems.CONDUIT_HELMET);
     }
 
     private static Item registerItem(String name, Item item) {

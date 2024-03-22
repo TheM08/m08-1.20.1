@@ -14,6 +14,9 @@
   "advancements.adventure.power_of_music.description": "Obtain all 16 Music Discs",
   "advancements.adventure.power_of_music.title": "Power of Music",
 
+  "advancements.completionist.completionist.description": "The Completionist",
+  "advancements.completionist.completionist.title": "Complete all 130 Advancements ",
+
   "advancements.credit.obtain_credit.description": "Obtain Credit",
   "advancements.credit.obtain_credit.title": "We Got to Have MONEY",
   "advancements.credit.root.description": "Money is such a beautiful word",
@@ -59,11 +62,16 @@
 
   "item.m08mod.hammer": "Hammer",
 
+  "item.m08mod.conduit_helmet": "Conduit Helmet",
   "item.m08mod.m08_helmet": "M08 Helmet",
   "item.m08mod.prestige_helmet": "Prestige Helmet",
   "item.m08mod.prestige_chestplate": "Prestige Chestplate",
   "item.m08mod.prestige_leggings": "Prestige Leggings",
   "item.m08mod.prestige_boots": "Prestige Boots",
+  "item.m08mod.tainted_prestige_helmet": "Tainted Prestige Helmet",
+  "item.m08mod.tainted_prestige_chestplate": "Tainted Prestige Chestplate",
+  "item.m08mod.tainted_prestige_leggings": "Tainted Prestige Leggings",
+  "item.m08mod.tainted_prestige_boots": "Tainted Prestige Boots",
 
   "item.minecraft.smithing_template.prestige_upgrade_smithing_template.title": "Prestige Upgrade",
   "item.minecraft.smithing_template.prestige_upgrade_smithing_template.applies_to": "Netherite Equipment",

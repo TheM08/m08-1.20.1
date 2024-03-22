@@ -29,10 +29,15 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.HAMMER, Models.HANDHELD);
 
-        itemModelGenerator.register(ModItems.M08_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CONDUIT_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRESTIGE_HELMET, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRESTIGE_CHESTPLATE, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRESTIGE_LEGGINGS, Models.GENERATED);
         itemModelGenerator.register(ModItems.PRESTIGE_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAINTED_PRESTIGE_HELMET, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAINTED_PRESTIGE_CHESTPLATE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAINTED_PRESTIGE_LEGGINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TAINTED_PRESTIGE_BOOTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.M08_HELMET, Models.GENERATED);
     }
 }

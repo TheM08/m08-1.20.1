@@ -23,8 +23,11 @@ public class ModItemsGroups {
                         entries.add(ModItems.PRESTIGE_CHESTPLATE);
                         entries.add(ModItems.PRESTIGE_LEGGINGS);
                         entries.add(ModItems.PRESTIGE_BOOTS);
-
-                        entries.add(Items.TURTLE_HELMET);
+                        entries.add(ModItems.TAINTED_PRESTIGE_HELMET);
+                        entries.add(ModItems.TAINTED_PRESTIGE_CHESTPLATE);
+                        entries.add(ModItems.TAINTED_PRESTIGE_LEGGINGS);
+                        entries.add(ModItems.TAINTED_PRESTIGE_BOOTS);
+                        entries.add(ModItems.CONDUIT_HELMET);
 
                     }).build());
 

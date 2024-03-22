@@ -1,25 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "group": "prestige",
   "key": {
-    "G": {
-      "item": "minecraft:gold_block"
+    "N": {
+      "item": "minecraft:nether_wart_block"
     },
     "P": {
       "item": "m08mod:prestige_upgrade_smithing_template"
     },
-    "Q": {
-      "item": "minecraft:quartz_block"
+    "T": {
+      "item": "minecraft:netherite_ingot"
     }
   },
   "pattern": [
-    "QPQ",
-    "QGQ",
-    "QQQ"
+    "NTN",
+    "TPT",
+    "NTN"
   ],
   "result": {
-    "count": 2,
     "item": "m08mod:prestige_upgrade_smithing_template"
   },
   "show_notification": true

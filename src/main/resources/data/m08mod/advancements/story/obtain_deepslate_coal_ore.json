@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:story/iron_tools",
+  "parent": "minecraft:story/enchant_item",
   "criteria": {
     "deepslate_coal_ore": {
       "conditions": {

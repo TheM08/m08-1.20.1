@@ -40,9 +40,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, 2)
                 .group("prestige")
-                .pattern("GPG")
-                .pattern("GQG")
-                .pattern("GGG")
+                .pattern("QPQ")
+                .pattern("QGQ")
+                .pattern("QQQ")
                 .input('Q', Items.QUARTZ_BLOCK)
                 .input('G', Items.GOLD_BLOCK)
                 .input('P', ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE)
@@ -69,6 +69,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('C', ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE)
                 .criterion(hasItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE))
                 .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE) + "_2"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE, 1)
+                .pattern("NTN")
+                .pattern("TPT")
+                .pattern("NTN")
+                .input('P', ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE)
+                .input('T', Items.NETHERITE_INGOT)
+                .input('N', Items.NETHER_WART_BLOCK)
+                .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                .offerTo(exporter, new Identifier(M08Mod.MOD_ID,getRecipeName(Items.NETHER_STAR)));
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, Items.CHAINMAIL_HELMET, 1)
                 .pattern("CCC")
@@ -142,7 +152,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.NETHERITE_HOE), Ingredient.ofItems(Items.NETHER_STAR), RecipeCategory.COMBAT, Items.NETHERITE_HOE)
                 .criterion(hasItem(ModItems.PRESTIGE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHER_STAR)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "prestige_hoe_smithing"));
 
-        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.TURTLE_HELMET), Ingredient.ofItems(Items.CONDUIT), RecipeCategory.COMBAT, Items.IRON_HELMET)
+        SmithingTransformRecipeJsonBuilder.create(Ingredient.ofItems(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), Ingredient.ofItems(Items.TURTLE_HELMET), Ingredient.ofItems(Items.CONDUIT), RecipeCategory.COMBAT, ModItems.CONDUIT_HELMET)
                 .criterion(hasItem(ModItems.CONDUIT_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.CONDUIT)).offerTo(exporter, new Identifier(M08Mod.MOD_ID, "conduit_helmet_smithing"));
     }
 }

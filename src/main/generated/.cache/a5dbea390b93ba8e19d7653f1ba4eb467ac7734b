@@ -1,9 +1,11 @@
-// 1.20.1	2024-02-19T20:47:59.7661953	M08 Mod/Model Definitions
+// 1.20.1	2024-03-22T23:13:28.2471594	M08 Mod/Model Definitions
+e0bc649e33c060bb353fd5e8e2995fef402b458e assets\m08mod\models\item\tainted_prestige_chestplate.json
 f5439654db960f7bd00b4647dc2b410f583ce049 assets\m08mod\models\item\conduit_upgrade_smithing_template.json
 c5b06e9100150e28935416ea2a90ed44c72db9f3 assets\m08mod\models\block\credit_chest.json
 a82ffe74521bc4cf1cf8a8b6fbe764776ee3a97b assets\m08mod\models\item\credit_chest.json
 21e992d28a9f6a3cab013b7636aa8bbb33117df5 assets\m08mod\models\item\prestige_leggings.json
 cc1606c164bba27c64653242d646ae8f031981cf assets\m08mod\models\item\hammer.json
+5dee471546931b3b0964398d5b036f1315ea1ef2 assets\m08mod\models\item\tainted_prestige_leggings.json
 0a18a4322c7cc81d69be24a240948731ab9f6482 assets\m08mod\models\item\credit_key.json
 e57665e3f5b99ab4620b752024dc09502ac538a2 assets\m08mod\models\item\prestige_chestplate.json
 93a4d915cbb7066e7f27de623e2aeb8dafc5fff9 assets\m08mod\models\item\m08_helmet.json
@@ -11,6 +13,9 @@ eddd6aeb89d6aa5877d35017a83cbaf6edea8c7e assets\m08mod\models\item\shard_of_ligh
 961de32698df36c97254ea4236e4eb7d23a13093 assets\m08mod\models\item\prestige_boots.json
 dccf5e7b8dbd3fab460dba46507c5458ce2bf43a assets\m08mod\models\item\prestige_helmet.json
 6af8d933140d2e0d21736288dbb6844e74711378 assets\m08mod\models\item\credit.json
+6bfdd2be55e7aab33d2a7a17ae7d3d8adc101b86 assets\m08mod\models\item\tainted_prestige_boots.json
+6107d029e63acdc5b82b54fba097024ae2767b3c assets\m08mod\models\item\tainted_prestige_helmet.json
+a39144ccbbf7c2879df776f3ae11a42ccba869dd assets\m08mod\models\item\conduit_helmet.json
 4c3124a96c2b06571406e3404e5af335987ede1f assets\m08mod\blockstates\credit_chest.json
 5d7fdda894b632f19cf6e8537f8dd9384b2ae240 assets\m08mod\models\item\shard_of_darkness.json
 76c53f2e8037519623b5487e7e4ed01ff96e4f21 assets\m08mod\models\item\prestige_upgrade_smithing_template.json
